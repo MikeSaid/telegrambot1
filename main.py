@@ -4,7 +4,7 @@ import sqlite3
 
 bot = telebot.TeleBot("5303408159:AAFv_MiQO052ShZeUT8mQkr6OIzatv-QMN0")
 
-conn = sqlite3.connect("C:/Users/User/PycharmProjects/LearningExamples/learn.db", check_same_thread=False)
+conn = sqlite3.connect('C:/Users/User/Documents/GitHub/telegrambot1/learn.db', check_same_thread=False)
 cursor = conn.cursor()
 
 
