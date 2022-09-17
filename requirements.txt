@@ -1,3 +1,4 @@
 Telebot
 pyTelegramBotAPI
 sqlite3
+sqlparse==0.4.1
